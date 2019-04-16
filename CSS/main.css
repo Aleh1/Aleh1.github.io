@@ -1,0 +1,55 @@
+htm{
+	font-family: 'PT Sans Caption', sans-serif; 
+	font-size : 16px; line-height: 1.5;
+}
+
+
+/*
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Sans Caption', sans-serif; 
+ */
+
+.heder{ background: #343c4e ;
+	background-image: url("../img/bg/bg-header.jpg");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	height : 100vh ;
+
+	color:#fff;
+	text-align: center ;
+
+	display:flex;
+	flex-direction: column ;
+	align-items:center;
+	justify-content: center;
+	position: relative;
+	
+	
+	
+}
+
+.heder__title {
+	font-size: 56px ;
+	margin-bottom: 30px;
+	font-family	:'Merriweather', serif;
+	margin-top:-50px;
+}
+
+.heder__slogan {
+	font-size:28px;
+	line-height;42px:
+	
+}
+
+.heder__arrow {
+	font-size:48px;
+	width:60px;
+	height:50px;
+	margin-left:-30px;
+	position: absolute;
+	bottom:50px;	
+	left:50%;
+}
+
