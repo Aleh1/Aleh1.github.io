@@ -1,5 +1,8 @@
-htm,body{
+.htm,body{
 	font-family: 'Amatic SC', cursive;
 	font-size : 25px; line-height: 1.5;
-	text-decoration: none;
+	
+}
+.container{
+	text-decoration:none;
 }
