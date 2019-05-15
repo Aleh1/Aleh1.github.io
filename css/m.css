@@ -1,8 +1,6 @@
-.htm,body{
+a{
 	font-family: 'Amatic SC', cursive;
 	font-size : 25px; line-height: 1.5;
 	margin:0;
-}
-.a{
 	text-decoration:none;
 }
