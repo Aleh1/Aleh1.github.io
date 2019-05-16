@@ -1,11 +1,12 @@
 body{
 	background-color:#c5ccd8;
 	background-position: center;
+	text-align: right;
 }
 a{
 	font-family: 'Amatic SC', cursive;
 	font-size : 120px; line-height: 1.5;
 	margin:0;
 	text-decoration: none;
-	color: red;
+	color: green;
 }
