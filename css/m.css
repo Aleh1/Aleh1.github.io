@@ -5,12 +5,13 @@ body{
 .text{
 	font-family: 'Amatic SC', cursive;
 	font-size : 120px; line-height: 1.5;
-	margin:50px;
+
 	
 	
-	padding: 100px; /* Поля вокруг текста */
+	
 }
 a{
 	text-decoration: none;
 	color: green;
+	padding-top:1500px; /* Поля вокруг текста */
 }
