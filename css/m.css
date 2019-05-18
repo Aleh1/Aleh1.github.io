@@ -8,6 +8,9 @@ body{
 	margin:50px;
 	text-decoration: none;
 	color: green;
-	border: 4px double black; /* Параметры границы */
+	
 	padding: 50px; /* Поля вокруг текста */
+}
+a{
+	text-decoration: none;
 }
