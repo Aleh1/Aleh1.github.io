@@ -5,8 +5,9 @@ body{
 a{
 	font-family: 'Amatic SC', cursive;
 	font-size : 120px; line-height: 1.5;
-	
+	margin:50px;
 	text-decoration: none;
 	color: green;
-	margin-bottom:250px;
+	
+	padding: 50px; /* Поля вокруг текста */
 }
