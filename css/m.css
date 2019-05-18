@@ -13,5 +13,5 @@ body{
 a{
 	text-decoration: none;
 	color: green;
-	padding-top:1500px; /* Поля вокруг текста */
+	padding-top:15px; /* Поля вокруг текста */
 }
