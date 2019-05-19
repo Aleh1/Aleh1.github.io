@@ -1,24 +1,22 @@
 body{
 	background-color:#c5ccd8;
 	text-align: center;
-	margin:0;
 }
 .text{
 	font-family: 'Amatic SC', cursive;
-	font-size : 120px; line-height: 1.5;
+	font-size : 120px; line-height: 0.5;
 	font-weight	: bold;}
 	
 a{
 	text-decoration: none;
 	color: #3CD366;
-	weight:200;
-	height: 600px;
+	margin:0;
 }	
 	
 
 .bo{
 	font-family: 'Amatic SC', cursive;
-	font-size : 120px; line-height: 1.5;
+	font-size : 120px; line-height: 0.5;
 	font-weight	: bold;}
 }
 	
