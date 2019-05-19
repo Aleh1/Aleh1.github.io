@@ -6,34 +6,20 @@ body{
 .text{
 	font-family: 'Amatic SC', cursive;
 	font-size : 120px; line-height: 1.5;
-	font-weight	: bold;
-}
+	font-weight	: bold;}
+	
 a{
 	text-decoration: none;
 	color: #3CD366;
 	weight:200;
 	height: 600px;
+}	
 	
-	
-} 
+
 .bo{
-	text-align: center;	line-height: 60px;
+	font-family: 'Amatic SC', cursive;
+	font-size : 120px; line-height: 1.5;
+	font-weight	: bold;}
 }
-.boot{
-	border:3px solid #218294;
-	front-size:300px;
-	color:#218294;
-	text-decoration: none;
-	text-transform: uppercase;
-	
-	width: 500px;
-	height: 60px;
-	display: block;
-	text-align: center;
-	margin-left:100;
-	
-	font-family: Arial;
-	border-radius:250px;
-	}
 	
 	
