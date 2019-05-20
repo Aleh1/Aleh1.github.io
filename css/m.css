@@ -2,15 +2,18 @@ body{
 	background-color:#c5ccd8;
 	text-align: center;
 }
-.text{
+/*.text{
 	font-family: 'Amatic SC', cursive;
-	font-size : 120px; line-height: 2.5;
-	font-weight	: bold;}
+	font-size : 120px; line-height: 0.5;
+	font-weight	: bold;} */
 	
 a{
 	text-decoration: none;
 	color:#253BB6;
 	margin:0;
+	font-family: 'Amatic SC', cursive;
+	font-size : 120px; line-height: 2.5;
+	font-weight	: bold;
 }	
 	
 
@@ -21,3 +24,7 @@ a{
 }
 	
 	
+a:hover{
+	font-size : 300px;
+	color:red;
+}
