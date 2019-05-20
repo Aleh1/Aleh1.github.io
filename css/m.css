@@ -1,5 +1,5 @@
 body{
-	background-color:#c5ccd8;
+	background-color: green;        /*#c5ccd8;*/
 	text-align: center;
 }
 /*.text{
@@ -17,14 +17,15 @@ a{
 }	
 	
 
-.bo{
+/*.bo{
 	font-family: 'Amatic SC', cursive;
 	font-size : 120px; line-height: 2.5;
 	font-weight	: bold;}
 }
-	
+	*/
 	
 a:hover{
-	font-size : 300px;
+	font-family: 'Amatic SC', cursive;
+	font-size : 300px;line-height: 2.5;
 	color:red;
 }
