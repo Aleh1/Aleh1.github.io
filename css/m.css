@@ -12,20 +12,20 @@ a{
 	color:#253BB6;
 	margin:0;
 	font-family: 'Amatic SC', cursive;
-	font-size : 120px; line-height: 2.5;
+	font-size : 120px; line-height: 1.5;
 	font-weight	: bold;
 }	
 	
 
 /*.bo{
 	font-family: 'Amatic SC', cursive;
-	font-size : 120px; line-height: 2.5;
+	font-size : 120px; line-height: 1.5;
 	font-weight	: bold;}
 }
 	*/
 	
 a:hover{
 	font-family: 'Amatic SC', cursive;
-	font-size : 150px;line-height: 2.5;
-	color:red;
+	font-size : 150px;line-height: 2;
+	color:#93b0e2;
 }
