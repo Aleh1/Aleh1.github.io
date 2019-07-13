@@ -8,7 +8,7 @@ html{
 
   	margin: 0 auto;/*устанавливаем все по середине*/
 	background-color: white;/*цвет фон текста белый */
-  	background-image: url("../images/b.png"); /*кординаты на банер*/
+  	background-image: url("../img/b.png"); /*кординаты на банер*/
   	background-repeat: no-repeat; /*чтобы фон не повторялся*/
   	padding-top: 200px; /*тело опускаем в низ на высоту банера */
  }
