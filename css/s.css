@@ -1,0 +1,51 @@
+html{
+	background-color: lightgray; /*цвет фона */
+	font-family: Arial;
+}
+
+ body{
+  	width: 945px; /*ширина фото и текста*/
+
+  	margin: 0 auto;/*устанавливаем все по середине*/
+	background-color: white;/*цвет фон текста белый */
+  	background-image: url("../images/b.png"); /*кординаты на банер*/
+  	background-repeat: no-repeat; /*чтобы фон не повторялся*/
+  	padding-top: 200px; /*тело опускаем в низ на высоту банера */
+ }
+
+ div{
+ 	background-color: rgba(255,255,255,0.4); /* прозрачность полосы на картинке */
+ 	height: 80px;
+	box-shadow: rgba(0,0,0,7)0 1px 0; 
+	margin-bottom: 80px;
+
+ }
+
+ h1{
+ 	color:white;
+ 	font-size: 55px;
+ 	padding: 5px 0 0 50px;
+ 	text-shadow: rgba(0,0,0,8)2px 2px 2px;
+
+ }
+
+ h2, p, {
+ 	font-style: italic;
+ }
+
+ h2{
+ 	border-bottom: 2px solid lightgray;
+ 	margin: 20px 30px 0 30px;
+ 	padding-top: 20px;
+
+ }
+ p{
+ 	font-size: 20px;
+ 	padding: 0 30px 30px 70px;
+ 	text-align: justify;
+ }
+
+ p::first-letter {
+ 	font-family: Cosic Sans MS;
+ 	font-size: 35px;
+ }
