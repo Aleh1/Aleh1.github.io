@@ -1,6 +1,7 @@
 body {
     font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
     margin: 0; /* Отступы на странице */
+    background: #c7b39b url(img/run.jpg)
    }
    h1 {
     font-size: 24px; /* Размер шрифта */
