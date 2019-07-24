@@ -1,7 +1,7 @@
 body {
     font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
     margin: 0; /* Отступы на странице */
-    background: #c7b39b url(img/run.jpg)
+    background: #FFFACD url(img/run.jpg)
    }
    h1 {
     font-size: 24px; /* Размер шрифта */
@@ -10,10 +10,19 @@ body {
    }
    h2 {
     margin-top: 0; /* Убираем отступ сверху */
+    border-bottom: 2px solid #EEE8AA;/*подчеркивание*/
+    /*подчеркивание*/
    }
+   .imgs{
+    /*float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0;
+    width: 15px;
+    height: 5px;
+   }
+
    #header { /* Верхний блок */
     background: #EEE8AA; /* Цвет фона */
-    padding: 50px; /* Поля вокруг текста */
+    padding: 25px; /* Поля вокруг текста */
    }
    #sidebar { /* Левая колонка */
     float: left; /* Обтекание справа */
@@ -21,7 +30,7 @@ body {
     width: 20%; /* Ширина колонки */
     padding: 5px; /* Поля вокруг текста */
     margin: 10px 10px 20px 5px; /* Значения отступов */
-    background: white;
+    background: #FFFACD;
 
    }
 
@@ -32,11 +41,11 @@ body {
    #content { /* Правая колонка */
     margin: 20px 20px 20px 25%; /* Значения отступов */
     padding: 20px; /* Поля вокруг текста */
-   
+    /*border: 1px solid #fff; /* Параметры рамки */
    }
    #footer { /* Нижний блок */
     background: #FFA540; /* Цвет фона */
-    padding: 50px; /* Поля вокруг текста */
+    padding: 25px; /* Поля вокруг текста */
     color: #fff; /* Цвет текста */
     clear: left; /* Отменяем действие float */
    }
