@@ -13,11 +13,9 @@ body {
     border-bottom: 2px solid #EEE8AA;/*подчеркивание*/
     /*подчеркивание*/
    }
-   .imgs{
-    /*float:left; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 0;
-    width: 15px;
-    height: 5px;
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
    }
 
    #header { /* Верхний блок */
