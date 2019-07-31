@@ -1,21 +1,25 @@
+
 body {
     font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
     margin: 0; /* Отступы на странице */
     background: #FFFACD url(img/run.jpg)
+    
    }
+
    h1 {
     font-size: 24px; /* Размер шрифта */
     margin: 0; /* Убираем отступы */
     color: #A65800; /* Цвет текста */
    }
+
    h2 {
     margin-top: 0; /* Убираем отступ сверху */
-    border-bottom: 2px solid #EEE8AA;/*подчеркивание*/
-    /*подчеркивание*/
+    border-bottom: 2px solid #EEE8AA;/*подчеркивание*/ 
    }
+
    .leftimg {
     float:left; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    margin: 10px 10px 10px 10px; /* Отступы вокруг картинки */
    }
 
    #header { /* Верхний блок */
@@ -29,13 +33,13 @@ body {
     padding: 5px; /* Поля вокруг текста */
     margin: 10px 10px 20px 5px; /* Значения отступов */
     background: #FFFACD;
-
-   }
+  }
 
    a{
     text-decoration: none;
     color: #A65800;
    }
+
    #content { /* Правая колонка */
     margin: 20px 20px 20px 25%; /* Значения отступов */
     padding: 20px; /* Поля вокруг текста */
@@ -47,3 +51,67 @@ body {
     color: #fff; /* Цвет текста */
     clear: left; /* Отменяем действие float */
    }
+
+
+   
+/*  fyter */ 
+
+
+/*
+.col-4{
+  margin: 0;
+  width: 360px;
+/*
+  margin-right: 0px;
+  float: left;
+
+  }
+  
+.col-4:last-child{
+  margin-right:0px;
+}
+*/
+/*
+.footer{
+  background-color:#061634;
+  color:#6479a2;
+  padding-top:490px;
+  padding-botton:190px;
+  }
+  
+.footer p {
+  margin-top:0px;
+  margin-bottom:15px;
+  margin: 0;
+  }
+
+p.footer__name {
+  font-size:5px;
+  margin-bottom:10px;
+  line-height:normal;
+  font-family:'Merriweather', serif;
+  }
+*/
+p.footer__social{
+  color:#fff;
+}
+
+p.footer__social-icons{
+  color:#FFF;
+  font-size:25px; /*размер иконок */
+  margin: 0;
+}
+p.footer__social-icons a {
+  color:#A65800;
+  text-decoration:none; /* отключает подчеркивание ссылки*/
+  margin-right:25px;/*  растояние между словами*/
+  
+}
+p.footer__social-icons a:last-child {
+  margin-right:0px;
+}
+
+p.footer__social-icons a:hover {
+  color:#EEE8AA
+}
+
