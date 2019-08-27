@@ -5,7 +5,7 @@ body{
 	text-align: center;
 }
 
-a{
+a{	margin: 20px;
 	font-size: 120px;
 	font-weight: bold;
 	text-decoration: none;
