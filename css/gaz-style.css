@@ -1,9 +1,13 @@
 body{
-	background-color:#c5ccd8;
+	margin:0;
+	padding:0;
+	background-color:#5D8AA8;
 	text-align: center;
 }
 
 a{
 	font-size: 120px;
 	font-weight: bold;
+	text-decoration: none;
+	color:#FF033E;
 }
