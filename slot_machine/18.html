@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Arrays</h2>
+
+<p>Arrays use numbers to access its elements.</p>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+   
+    var logo = "1234567890";
+    var nn = Math.floor(Math.random()*10);
+    var nn1 = nn + 1;
+
+    var n1 = Math.floor(Math.random()*10);
+    var n2 = Math.floor(Math.random()*10);
+    var n3 = Math.floor(Math.random()*10);
+    var mt = logo[n1] + logo[n2] + logo[n3];
+    alert(n1 + n2 + n3);
+
+    var person = [n1, n2, n3];
+document.getElementById("demo").innerHTML = person[0];
+document.getElementById("demo1").innerHTML = person[1]; 
+document.getElementById("demo2").innerHTML = person[2];
+
+    </script>
+</body>
+</html>
+
